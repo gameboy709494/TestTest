@@ -1,0 +1,21 @@
+git push git@github.com:gameboy709494/TestTest.git  master:Branch2
+意思：将本地主分支推送到仓库（git@github.com:gameboy709494/TestTest.git）的Branch2分支去。
+
+git push 远端仓库地址 想要推送的本地分支:远端仓库的目的分支
+
+
+===============================================================================================
+
+
+git remote add github git@github.com:gameboy709494/TestTest.git
+git remote pull github
+
+这样远程仓库的修改就被拉到本地了。
+或者这样操作：
+
+拉取远端主分支到本地。
+git pull git@github.com:gameboy709494/TestTest.git
+指明目标分支和本地分支。
+git pull git@github.com:gameboy709494/TestTest.git Branch2:Hello
+
+
